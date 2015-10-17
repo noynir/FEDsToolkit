@@ -1,0 +1,12 @@
+{
+  "extends":["eslint:recommended",
+              "defaults/configurations/google"], //eslint-config-defaults
+  "env": {
+    "browser": true,
+  },
+  "globals": {
+    "angular": true,
+    "jQuery":false,
+    "$":true
+  }
+}

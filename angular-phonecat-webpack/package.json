@@ -1,0 +1,24 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "name": "angular-phonecat",
+  "description": "A tutorial application for AngularJS",
+  "repository": "https://github.com/angular/angular-phonecat",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "node-libs-browser": "^0.5.3",
+    "tmp": "0.0.23",
+    "uglify-loader": "^1.2.0",
+    "webpack": "^1.12.2"
+  },
+  depedencies:{
+    "angular": "^1.4.6"
+  }
+
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  }
+}

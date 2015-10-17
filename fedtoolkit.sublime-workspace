@@ -1,0 +1,830 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"docuem",
+				"document.body	Document"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"path",
+				"path.resolve"
+			],
+			[
+				"const",
+				"constructor	keyword"
+			],
+			[
+				"proto",
+				"protocol	URLUtils"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"HttpSession",
+				"HttpSessions"
+			],
+			[
+				"sdp-sock",
+				"sdp-socketio-chatclient-nickmodal	chatClient-nickmodal"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"sdp-so",
+				"sdp-socketio-chatclient-nickmodal	chatClient-nickmodal"
+			],
+			[
+				"sdp-sco",
+				"sdp-socketio-chatclient-postmessage	chatClient-postmessage"
+			],
+			[
+				"clus",
+				"cluster.fork"
+			],
+			[
+				"exit",
+				"process.exit"
+			],
+			[
+				"nick",
+				"nickname"
+			],
+			[
+				"sdp-scok",
+				"sdp-socketio-chatclient-postmessage	chatClient-postmessage"
+			],
+			[
+				"sdp-s",
+				"sdp-socketio-chatclient-displaymessage	chatClient-displayMessage"
+			],
+			[
+				"sdp-",
+				"sdp-express-router	express-router"
+			],
+			[
+				"sdp-e",
+				"sdp-express-usermongoRoutes	userRoutesMongo"
+			],
+			[
+				"sd-",
+				"sdp-mongoconnection	MongoConnection"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"cal",
+				"callback"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"ext",
+				"extended"
+			],
+			[
+				"sa",
+				"save"
+			],
+			[
+				"bod",
+				"body"
+			],
+			[
+				"exte",
+				"extends"
+			],
+			[
+				"users",
+				"usersArr"
+			],
+			[
+				"exp",
+				"exports"
+			],
+			[
+				"u",
+				"username"
+			],
+			[
+				"sdp",
+				"sdp-navbar	navbar-jade"
+			],
+			[
+				"Home",
+				"http.IncomingMessage"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"layo",
+				"layout"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"niam",
+				"nicknames"
+			],
+			[
+				"consoel",
+				"console.log"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"middle",
+				"middleWarefunc"
+			],
+			[
+				"mongo",
+				"mongoClient"
+			],
+			[
+				"list",
+				"list-group"
+			],
+			[
+				"listr",
+				"list-group-item"
+			],
+			[
+				"middlw",
+				"middlewarefunc"
+			],
+			[
+				"st",
+				"strm1"
+			],
+			[
+				"su",
+				"supports"
+			],
+			[
+				"v",
+				"viewsSetup"
+			],
+			[
+				"d",
+				"ddoc"
+			],
+			[
+				"couc",
+				"couchbaseClient"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"valu",
+				"values"
+			],
+			[
+				"C",
+				"console"
+			],
+			[
+				"end",
+				"endDate"
+			],
+			[
+				"start",
+				"startDate"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"ran",
+				"rants"
+			],
+			[
+				"id",
+				"ids"
+			],
+			[
+				"a",
+				"api"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Contr",
+				"controller"
+			],
+			[
+				"pr",
+				"privateImages"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "angular-phonecat-gulp/app/index.html",
+			"settings":
+			{
+				"buffer_size": 1735,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "angular-phonecat-gulp/app/bower_components/bootstrap/.bower.json",
+			"settings":
+			{
+				"buffer_size": 831,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "angular-phonecat-gulp/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1207,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: bootstrap-jade"
+			],
+			[
+				"sbi",
+				"Snippet: BDD it pending"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa	",
+				"Package Control: Install Package"
+			],
+			[
+				"git:",
+				"Git: Commit"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 195.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nirnoy/git/fedtoolkit",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/bower_components",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/bower_components/bootstrap",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/css",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step4-css"
+	],
+	"file_history":
+	[
+		"/Users/nirnoy/git/fedtoolkit/webpack/index.html",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/package.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styleswatch.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/animations.scss",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/app.scss",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.css",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/app.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfile.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/app.css",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styles.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/bower.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/package.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/index.html",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.lint.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/services.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/controllers.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/app.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/webpack.config.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpack.config.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/filters.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/webpack.config.complete.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/build/wp.bundle.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/app.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/build/bundle.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/es6/app.es6",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/package.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/index.html",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/animations.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/build/vendor.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.hello.js",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Cache/HTML/HTML.tmLanguage.cache",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/PackageResourceViewer/README.md",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/nirnoy/git/fedtoolkit/webpack/css/style1.scss",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step4-css/webpack.config.autoprefixer.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/build/styles.css",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/css/app.es6",
+		"/Users/nirnoy/git/fedtoolkit/webpack/.eslintrc",
+		"/Users/nirnoy/git/fedtoolkit/webpack/page2.html",
+		"/Users/nirnoy/git/fedtoolkit/webpack/build/index.bundle.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/multi/page2.es6",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/multi/app.es6",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/multi/calc.es6",
+		"/Users/nirnoy/git/fedtoolkit/webpack/calc.html",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/es6/calc.es6",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/es6/logger.es6",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step2_loaders/webpack.config.eslint.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step2_loaders/webpack.config.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/calc.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/app.es6",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/services.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step1_helloWorld/webpack.config.watch.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step1_helloWorld/webpack.config.basic.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step1_helloWorld/webpack.config.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile-lazy.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.sass",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/.eslintrc",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/app.sass",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/animations.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/services.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/controllers.js",
+		"/Users/nirnoy/git/fedtoolkit/gulpbase",
+		"/Users/nirnoy/git/webpack/css/style1.css",
+		"/Users/nirnoy/git/webpack/build/app.bundle.js",
+		"/Users/nirnoy/git/webpack/src/app.js",
+		"/Users/nirnoy/git/webpack/src/services.es6",
+		"/Users/nirnoy/git/webpack/src/logger.es6",
+		"/Users/nirnoy/git/webpack/src/app.es6",
+		"/Users/nirnoy/git/webpack/src/calc.es6",
+		"/Users/nirnoy/git/webpack/build/shared.bundle.js.map",
+		"/Users/nirnoy/git/webpack/webpack.config.js",
+		"/Users/nirnoy/git/webpack/.jshintrc",
+		"/Users/nirnoy/git/webpack/src/calc.js",
+		"/Users/nirnoy/git/webpack/src/logger.js",
+		"/Users/nirnoy/git/webpack/src/services.js",
+		"/Users/nirnoy/git/webpack/index.html",
+		"/Users/nirnoy/git/webpack/build/shared.js",
+		"/Users/nirnoy/git/webpack/build/bundle.js",
+		"/Users/nirnoy/git/webpack/build/logger.js",
+		"/Users/nirnoy/git/webpack/package.json",
+		"/Users/nirnoy/git/angular-phonecat-cms/app/js/app.js",
+		"/Users/nirnoy/git/angular-phonecat-cms/app/index.html",
+		"/Users/nirnoy/git/angular-phonecat-cms/app/js/animations.js",
+		"/Users/nirnoy/git/angular-phonecat-cms/webpack.config.js",
+		"/Users/nirnoy/git/angular-phonecat-cms/app/js/build/app.js",
+		"/Users/nirnoy/git/angular-phonecat-cms/app/js/services.js",
+		"/Users/nirnoy/git/angular-phonecat-cms/package.json",
+		"/Users/nirnoy/git/angular-phonecat-cms/npm-debug.log",
+		"/Users/nirnoy/git/angular-phonecat-cms/node_modules/http-server/LICENSE",
+		"/Users/nirnoy/git/angular-phonecat-cms/app/js/controllers.js",
+		"/Users/nirnoy/git/angular-phonecat-cms/app/js/filters.js",
+		"/Users/nirnoy/git/angular-phonecat/webpack.config.js",
+		"/Users/nirnoy/git/angular-phonecat/app/index.html",
+		"/Users/nirnoy/git/angular-phonecat/app/js/app.js",
+		"/Users/nirnoy/git/angular-phonecat/app/js/build/vendor.js",
+		"/Users/nirnoy/git/angular-phonecat/app/js/animations.js",
+		"/Users/nirnoy/git/angular-phonecat/app/js/build/shared.js",
+		"/Users/nirnoy/git/angular-phonecat/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/docstyle.css",
+		"/Users/nirnoy/git/angular-phonecat/app/js/build/bundle.js",
+		"/Users/nirnoy/dev/ng-hackathon-starter/config.js",
+		"/Users/nirnoy/dev/ng-hackathon-starter/node_modules/jquery/dist/jquery.min.js",
+		"/Users/nirnoy/dev/ng-hackathon-starter/jspm_packages/github/twitter/typeahead.js@0.11.1.js",
+		"/Users/nirnoy/dev/ng-hackathon-starter/lib/typeahead.bundle.js",
+		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/src/client/app/app.module.js",
+		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/gulpfile.js",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/.jscsrc",
+		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/,",
+		"/Users/nirnoy/git/HttpOwl/proxyResponse.json",
+		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/proxyAdapter.js",
+		"/Users/nirnoy/git/HttpOwl/wget.txt",
+		"/Users/nirnoy/git/HttpOwl/app/index.html",
+		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/index.js",
+		"/Users/nirnoy/git/HttpOwl/app/scripts/components.jsx",
+		"/Users/nirnoy/git/HttpOwl/app/scripts/proxyAdapter.js",
+		"/Users/nirnoy/git/HttpOwl/app/main.js",
+		"/Users/nirnoy/git/HttpOwl/app/mainNode.js",
+		"/Users/nirnoy/git/HttpOwl/app/gruntfile.js",
+		"/Users/nirnoy/git/HttpOwl/app/modules/proxy.js",
+		"/Users/nirnoy/git/HttpOwl/app/scripts/index.jsx",
+		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/components.js",
+		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/index.js.map",
+		"/Users/nirnoy/git/HttpOwl/app/modules/entities.js",
+		"/Users/nirnoy/Documents/Sela/SelaCourses/NodeJS/samples/NodeCourse/Mod01/1_AsyncServer/server.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"node_modules,<open folders>",
+			"node_modules",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"node_modules",
+			"new webpack.optimize.CommonsChunkPlugin({\n            name:\"vendorAngular\",\n            filename:\"angular.bundle.js\"}),",
+			";\n",
+			"eslint",
+			"var",
+			"        .",
+			"  <",
+			"jquery",
+			"parentJsonpFunction",
+			"mout",
+			"typeahead",
+			"none",
+			"indent",
+			"requirePaddingNewLinesAfterUseStrict",
+			"req",
+			"function",
+			"let",
+			"req",
+			"let",
+			"{sessions.map(function(s){\n								return (<httpSession session=\"{s}\" ></httpSession>)\n							})}",
+			"router",
+			"new",
+			"\"),",
+			"new",
+			"authenticator",
+			"couny",
+			"myUsers",
+			"path",
+			"connect",
+			"response",
+			"');",
+			"epel",
+			"npm_pa",
+			"chef",
+			"[",
+			"passw",
+			"pass",
+			"designd",
+			"couchbaseClient",
+			"doc, meta) {\n  if(meta.type == \"json\" && \n     doc.type == \"rant\" && \n     doc.rantAbout){\n  	emit(doc.rantAbout.userName, null);",
+			"\n  if(meta.type == \"json\" && \n     doc.type == \"rant\" && \n     doc.rantAbout){\n  	emit(doc.rantAbout.userName, null);",
+			"     doc.type == \"rant\" && \n     doc.rantAbout){\n  	emit(doc.rantAbout.userName, null);",
+			"{\n  if(meta.type == \"json\" && \n     doc.type == \"rant\" && \n     doc.rantAbout){\n  	emit(doc.rantAbout.userName, null);\n  }",
+			"\n  if(meta.type == \"json\" && \n     doc.type == \"rant\" && \n     doc.rantAbout){\n  	emit(doc.rantAbout.userName, null);\n  }",
+			"bu",
+			"buc",
+			"couchn",
+			"CBpp(",
+			"cb",
+			"_cb",
+			"viewq",
+			"buc",
+			"box",
+			"server",
+			"node",
+			"geo",
+			"bbox",
+			"4104",
+			"couchbaseClient",
+			"keys"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "angular-phonecat-gulp/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								726,
+								726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "angular-phonecat-gulp/app/bower_components/bootstrap/.bower.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "angular-phonecat-gulp/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								877
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "fedtoolkit.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"control",
+				"angular-phonecat-webpack/app/js/controllers.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/ExpressJS/NodeExpress.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 347.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

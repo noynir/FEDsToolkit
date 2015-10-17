@@ -1,0 +1,17 @@
+{
+  "extends":["eslint:recommended",
+              "defaults/configurations/google"], //eslint-config-defaults
+  "env": {
+    "browser": true,
+    "es6":true'
+  },
+  "rules":{
+    "indent":[2,4]
+  },
+  "globals":{
+    "require":false
+  },
+  "ecmaFeatures": { 
+      "modules": true
+  }
+}
