@@ -280,26 +280,26 @@
 	"buffers":
 	[
 		{
-			"file": "angular-phonecat-gulp/app/index.html",
-			"settings":
-			{
-				"buffer_size": 1735,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "angular-phonecat-gulp/app/bower_components/bootstrap/.bower.json",
-			"settings":
-			{
-				"buffer_size": 831,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "angular-phonecat-gulp/gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 1207,
+				"buffer_size": 1651,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "angular-phonecat-gulp/gulpconfig.js",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "angular-phonecat-gulp/app/index.html",
+			"settings":
+			{
+				"buffer_size": 1652,
 				"line_ending": "Unix"
 			}
 		}
@@ -311,10 +311,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 127.0,
-		"last_filter": "Package Control: in",
+		"height": 392.0,
+		"last_filter": "git",
 		"selected_items":
 		[
+			[
+				"git",
+				"Gitignore: New gitignore"
+			],
 			[
 				"Package Control: in",
 				"Package Control: Install Package"
@@ -398,30 +402,32 @@
 	[
 		"/Users/nirnoy/git/fedtoolkit",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/bower_components",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/bower_components/bootstrap",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/css",
-		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs",
-		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step4-css"
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app"
 	],
 	"file_history":
 	[
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styles.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpconfig.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styleswatch.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.inject.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile-lazy.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.css",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/app.scss",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/app.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/index.html",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/bower.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/bower_components/bootstrap/bower.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/LICENSE",
+		"/Users/nirnoy/git/fedtoolkit/.gitignore",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/README.md",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/README.md",
 		"/Users/nirnoy/git/fedtoolkit/webpack/index.html",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/package.json",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styleswatch.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/animations.scss",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/app.scss",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.css",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/app.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfile.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/app.css",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styles.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/bower.json",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/package.json",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/index.html",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.lint.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/services.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/controllers.js",
@@ -465,7 +471,6 @@
 		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step1_helloWorld/webpack.config.watch.js",
 		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step1_helloWorld/webpack.config.basic.js",
 		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step1_helloWorld/webpack.config.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile-lazy.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.sass",
 		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/.eslintrc",
@@ -528,14 +533,7 @@
 		"/Users/nirnoy/git/HttpOwl/app/scripts/components.jsx",
 		"/Users/nirnoy/git/HttpOwl/app/scripts/proxyAdapter.js",
 		"/Users/nirnoy/git/HttpOwl/app/main.js",
-		"/Users/nirnoy/git/HttpOwl/app/mainNode.js",
-		"/Users/nirnoy/git/HttpOwl/app/gruntfile.js",
-		"/Users/nirnoy/git/HttpOwl/app/modules/proxy.js",
-		"/Users/nirnoy/git/HttpOwl/app/scripts/index.jsx",
-		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/components.js",
-		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/index.js.map",
-		"/Users/nirnoy/git/HttpOwl/app/modules/entities.js",
-		"/Users/nirnoy/Documents/Sela/SelaCourses/NodeJS/samples/NodeCourse/Mod01/1_AsyncServer/server.js"
+		"/Users/nirnoy/git/HttpOwl/app/mainNode.js"
 	],
 	"find":
 	{
@@ -633,84 +631,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "angular-phonecat-gulp/app/index.html",
+					"file": "angular-phonecat-gulp/gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1735,
+						"buffer_size": 1651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								726,
-								726
+								1407,
+								1407
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "angular-phonecat-gulp/app/bower_components/bootstrap/.bower.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 831,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								383,
-								383
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 732.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "angular-phonecat-gulp/gulpfile.js",
+					"buffer": 1,
+					"file": "angular-phonecat-gulp/gulpconfig.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1207,
+						"buffer_size": 391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								876,
-								877
+								183,
+								368
 							]
 						],
 						"settings":
@@ -721,6 +689,36 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "angular-phonecat-gulp/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -822,7 +820,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 347.0,
+	"side_bar_width": 194.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

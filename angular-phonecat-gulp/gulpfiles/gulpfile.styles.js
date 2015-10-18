@@ -1,12 +1,13 @@
 var gulp=require('gulp');
+var config = require('./gulpconfig')();
 var util = require('gulp-util');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var eslint = require('gulp-eslint');
 
 gulp.task('lint',function(){
-    log("Linting js source");
-    return gulp.src(['app/js/**/*.js'])
+    log("linting code with ESLint");
+    return gulp.src(config.jsFiles)
         .pipe(eslint({useEslintrc:true}))
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
@@ -14,12 +15,14 @@ gulp.task('lint',function(){
 
 
 gulp.task('styles',function(){
-    
-    return gulp.src('app/sass/**/*.scss')
+    log('Compiling SASS --> CSS'+config.sassSrc);
+
+    return gulp.src(config.sassSrc)
         .pipe(sass())
         .pipe(autoprefixer({browsers:['last 3 versions']}))
-        .pipe(gulp.dest('./app/css'));
-})
+        .pipe(gulp.dest(config.cssDest));
+});
+
 
 
 function log(msg){
