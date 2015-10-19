@@ -15,12 +15,11 @@ gulp.task('lint',function(){
 });
 
 gulp.task('clean-styles',function(){
-    log('Cleaning Styles');
-
-    var files=('./app/css/**/*.css');
-    del(files);
+    log('Cleaing Styles');
+    clean(config.cssFiles);
 
 });
+
 
 gulp.task('styles',['clean-styles'],function(){
     log('Compiling SASS --> CSS'+config.sassSrc);
@@ -42,4 +41,8 @@ gulp.task('styles-watch',['styles'],function(){
 
 function log(msg){
     util.log(util.colors.blue(msg));
+}
+
+function clean(path,done){
+    return del(path,done);
 }

@@ -12,11 +12,11 @@ gulp.task('lint',function(){
         .pipe($.eslint.failAfterError());
 });
 
-gulp.task('clean-styles',function(done){
+gulp.task('clean-styles',function(){
     log('Cleaing Styles');
-    clean(config.cssFiles,done);
-});
+    return clean(config.cssFiles);
 
+});
 
 gulp.task('styles',['clean-styles'],function(){
     log('Compiling SASS --> CSS'+config.sassSrc);
@@ -28,22 +28,32 @@ gulp.task('styles',['clean-styles'],function(){
 });
 
 gulp.task('styles-watch',['styles'],function(){
-    log('Starting styles Wacther');
+    log('Starting styles Watcher');
     gulp.watch(config.sassSrc,['styles'])
 
 });
 
-gulp.task('inject',function(){
+
+gulp.task('inject',['styles'],function(){
     log('injecting js & css');
     return gulp.src(config.htmlFiles)
         .pipe(wiredep(config.wiredepOptions))
-        .pipe($.inject(gulp.src(config.jsFiles)))
+        .pipe($.inject(gulp.src(config.jsFiles),{relative:true}))
+        .pipe($.inject(gulp.src(config.cssFiles),{relative:true}))
         .pipe(gulp.dest(config.appRoot));
 
-})
+});
 
+gulp.task("images",function(){
+    return gulp.src(config.images)
+        .pipe($.imagemin({optimizationLevel:4}))
+        .pipe(gulp.dest(config.build+'img'));
+})
 
 function log(msg){
     $.util.log($.util.colors.blue(msg));
 }
 
+function clean(path,done){
+   return del(path,done);
+}

@@ -42,7 +42,6 @@ gulp.task('styles-watch',['styles'],function(){
 
 });
 
-
 gulp.task('inject',['styles','templates'],function(){
     log('injecting js & css');
     var templatesCache=config.htmlTemplates+'cache/'+config.ngTemplates.filename;
@@ -62,18 +61,6 @@ gulp.task("images",function(){
         .pipe($.imagemin({optimizationLevel:4}))
         .pipe(gulp.dest(config.build+'img'));
 })
-
-gulp.task('bundle',['inject','images'],function(){
-    log('bundling assets');
-
-    var assets=$.useref.assets();
-    return gulp.src(config.htmlFiles)
-        .pipe(assets)
-        .pipe(assets.restore())
-        .pipe($.useref())
-        .pipe(gulp.dest(config.build));
-});
-
 
 function log(msg){
     $.util.log($.util.colors.blue(msg));

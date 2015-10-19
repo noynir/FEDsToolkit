@@ -14,8 +14,7 @@ gulp.task('lint',function(){
 
 gulp.task('clean-styles',function(){
     log('Cleaing Styles');
-    var files=(config.cssFiles);
-    del(files);
+    return clean(config.cssFiles);
 
 });
 
@@ -38,3 +37,6 @@ function log(msg){
     $.util.log($.util.colors.blue(msg));
 }
 
+function clean(path){
+    return del(path);
+}
