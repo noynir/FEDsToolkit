@@ -59,18 +59,34 @@ gulp.task('inject',['styles','templates'],function(){
 
 gulp.task("images",function(){
     return gulp.src(config.images)
-        .pipe($.imagemin({optimizationLevel:4}))
+        .pipe($.imagemin({optimizationLevel:4, progressive:true}))
         .pipe(gulp.dest(config.build+'img'));
-})
+});
 
-gulp.task('bundle',['inject','images'],function(){
+gulp.task('copy',function(){
+    log('Copying Resources')
+    return gulp.src(config.appRoot+'phones/**/*.*')
+        .pipe($.copy(config.build+'phones',{prefix:2}));
+});
+
+gulp.task('bundle',['inject','copy','images'],function(){
     log('bundling assets');
-
     var assets=$.useref.assets();
+    var cssFilter=$.filter('**/*.css',{restore:true});
+    var jsFilter =$.filter('**/*.js',{restore:true});
+
     return gulp.src(config.htmlFiles)
         .pipe(assets)
+        .pipe(cssFilter)
+        .pipe($.csso())
+        .pipe(cssFilter.restore)
+        .pipe(jsFilter)
+        .pipe($.uglify())
+        .pipe(jsFilter.restore)
+        .pipe($.rev())
         .pipe(assets.restore())
         .pipe($.useref())
+        .pipe($.revReplace())
         .pipe(gulp.dest(config.build));
 });
 

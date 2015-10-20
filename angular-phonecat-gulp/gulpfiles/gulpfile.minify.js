@@ -69,12 +69,20 @@ gulp.task('copy',function(){
         .pipe($.copy(config.build+'phones',{prefix:2}));
 });
 
-gulp.task('bundle',['inject','images','copy'],function(){
+gulp.task('bundle',['inject','copy','images'],function(){
     log('bundling assets');
-
     var assets=$.useref.assets();
+    var cssFilter=$.filter('**/*.css',{restore:true});
+    var jsFilter =$.filter('**/*.js',{restore:true});
+
     return gulp.src(config.htmlFiles)
         .pipe(assets)
+        .pipe(cssFilter)
+        .pipe($.csso())
+        .pipe(cssFilter.restore)
+        .pipe(jsFilter)
+        .pipe($.uglify())
+        .pipe(jsFilter.restore)
         .pipe(assets.restore())
         .pipe($.useref())
         .pipe(gulp.dest(config.build));
