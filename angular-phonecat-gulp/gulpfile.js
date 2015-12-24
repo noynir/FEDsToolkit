@@ -1,25 +1,44 @@
 var gulp = require('gulp');
 var config = require('./gulpconfig')();
 var $ = require('gulp-load-plugins')({lazy: true});
-var del = require('del');
-var wiredep=require('wiredep').stream;
 
-gulp.task('lint',function(){
-    log("linting code with ESLint");
-    return gulp.src(config.jsFiles)
-        .pipe($.eslint({useEslintrc:true}))
-        .pipe($.eslint.format())
-        .pipe($.eslint.failAfterError());
+var browserSync = require('browser-sync').create();
+gulp.task('serve',['inject'],function() {
+    browserSync.init({
+        server: config.appRoot,
+        port:8080
+    });
+
+    gulp.watch(config.sassSrc,['styles']); 
+    gulp.watch([config.jsFiles,'!./app/js/dist/**'],['js-watch']);
+    gulp.watch(config.htmlFiles,function(){
+        browserSync.reload()
+    });
+});
+
+gulp.task('styles',['clean-styles'],function(){
+    return gulp.src(config.sassSrc)
+        .pipe($.sass())
+        .pipe(gulp.dest(config.cssDest))
+        .pipe(browserSync.stream());
 });
 
 gulp.task('clean-styles',function(){
-    log('Cleaning Styles');
     return clean(config.cssFiles);
 });
 
-gulp.task("templates",function(){
-    log("Creating ng Templates Cache");
+gulp.task('clean-js', function () {
+    return clean(config.jsDistFiles);
+});
 
+gulp.task('es6',['clean-js'],function(){
+    return gulp.src(config.jsFiles)
+        .pipe($.babel())
+        .pipe($.ngAnnotate())
+        .pipe(gulp.dest(config.jsRoot))
+});
+
+gulp.task("templates",function(){
     return gulp.src(config.htmlTemplatesFiles)
         .pipe($.minifyHtml({empty:true}))
         .pipe($.angularTemplatecache(config.ngTemplates.filename,
@@ -27,74 +46,42 @@ gulp.task("templates",function(){
         .pipe(gulp.dest(config.htmlTemplates+'cache/'));
 });
 
-gulp.task('styles',['clean-styles'],function(){
-    log('Compiling SASS --> CSS'+config.sassSrc);
-
-    return gulp.src(config.sassSrc)
-        .pipe($.sass())
-        .pipe($.autoprefixer({browsers:['last 3 versions']}))
-        .pipe(gulp.dest(config.cssDest));
-});
-
-gulp.task('styles-watch',['styles'],function(){
-    log('Starting styles Watcher');
-    gulp.watch(config.sassSrc,['styles'])
-
-});
-
-
-gulp.task('inject',['styles','templates'],function(){
-    log('injecting js & css');
-    var templatesCache=config.htmlTemplates+'cache/'+config.ngTemplates.filename;
-    log(templatesCache);
+var wiredep=require('wiredep').stream;
+gulp.task('inject',['styles','es6','templates'],function(){
     return gulp.src(config.htmlFiles)
         .pipe(wiredep(config.wiredepOptions))
-        .pipe($.inject(gulp.src(config.jsFiles),{relative:true}))
+        .pipe($.inject(gulp.src(config.jsDistFiles),{relative:true}))
         .pipe($.inject(gulp.src(config.cssFiles),{relative:true}))
-        .pipe($.inject(gulp.src(templatesCache,{read:false}),
+        .pipe($.inject(gulp.src(config.templatesCache,{read:false}),
             {starttag: '<!-- inject:templates.js -->',relative:true}))
         .pipe(gulp.dest(config.appRoot));
-
 });
 
-gulp.task("images",function(){
-    return gulp.src(config.images)
-        .pipe($.imagemin({optimizationLevel:4, progressive:true}))
-        .pipe(gulp.dest(config.build+'img'));
+gulp.task('js-watch',['es6'],function(){
+    browserSync.reload();
 });
 
-gulp.task('copy',function(){
-    log('Copying Resources')
-    return gulp.src(config.appRoot+'phones/**/*.*')
-        .pipe($.copy(config.build+'phones',{prefix:2}));
+gulp.task('clean-build', function () {
+    return clean(config.build+'/**');
 });
 
-gulp.task('bundle',['inject','copy','images'],function(){
-    log('bundling assets');
-    var assets=$.useref.assets();
-    var cssFilter=$.filter('**/*.css',{restore:true});
-    var jsFilter =$.filter('**/*.js',{restore:true});
+gulp.task('copy',['clean-build'],function(){
+    return gulp.src(config.staticFiles)
+        .pipe($.copy(config.build,{prefix:1}));
+});
 
+gulp.task('bundle',['inject','copy'],function(){
     return gulp.src(config.htmlFiles)
-        .pipe(assets)
-        .pipe(cssFilter)
-        .pipe($.csso())
-        .pipe(cssFilter.restore)
-        .pipe(jsFilter)
-        .pipe($.uglify())
-        .pipe(jsFilter.restore)
-        .pipe($.rev())
-        .pipe(assets.restore())
         .pipe($.useref())
-        .pipe($.revReplace())
+        .pipe($.if('**/*.js',$.uglify({mangle:true})))
+        .pipe($.if('**/*.css',$.csso()))
         .pipe(gulp.dest(config.build));
+
 });
 
 
-function log(msg){
-    $.util.log($.util.colors.blue(msg));
-}
 
+var del=require('del')
 function clean(path){
     return del(path);
 }

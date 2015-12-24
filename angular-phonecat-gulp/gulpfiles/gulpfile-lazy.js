@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var config = require('./gulpconfig')();
 var $ = require('gulp-load-plugins')({lazy: true});
 var del = require('del');
-var wiredep=require('wiredep').stream;
 
 gulp.task('lint',function(){
     log("linting code with ESLint");

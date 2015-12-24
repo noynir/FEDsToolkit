@@ -4,6 +4,102 @@
 		"selected_items":
 		[
 			[
+				"gulp-wat",
+				"gulp-watch-js	gulp-watchjs"
+			],
+			[
+				"gulp-clen",
+				"gulp-cleanFiles	gulp-cleanFiles"
+			],
+			[
+				"gulp-cle",
+				"gulp-clean	gulp-clean"
+			],
+			[
+				"gulp-sty",
+				"gulp-styles	gulp-sass"
+			],
+			[
+				"gulp-",
+				"gulp-es6	gulp-es6"
+			],
+			[
+				"gulp",
+				"gulp-es6	gulp-es6"
+			],
+			[
+				"gulp-w",
+				"gulp-watch-style	gulp-watchstyle"
+			],
+			[
+				"gulp-l",
+				"gulp-lazy	gulp-lazy"
+			],
+			[
+				"gulp-wath",
+				"gulp-watch-style	gulp-watchstyle"
+			],
+			[
+				"gulp-style",
+				"gulp-style-stream	gulp-style-stream"
+			],
+			[
+				"gulp-wa",
+				"gulp-watch-js	gulp-watchjs"
+			],
+			[
+				"gulp-s",
+				"gulp-style-stream	gulp-style-stream"
+			],
+			[
+				"gulp-c",
+				"gulp-clean	gulp-clean"
+			],
+			[
+				"conos",
+				"console.log"
+			],
+			[
+				"gulp-a",
+				"gulp-lazy	gulp-lazy"
+			],
+			[
+				"gulp-ce",
+				"gulp-cleanFiles	gulp-cleanFiles"
+			],
+			[
+				"gulp-clean",
+				"gulp-cleanFiles	gulp-cleanFiles"
+			],
+			[
+				"gupl",
+				"gulp-lint	gulp-eslint"
+			],
+			[
+				"gulp-cl",
+				"gulp-cleanFiles	gulp-cleanStyles"
+			],
+			[
+				"rq",
+				"require"
+			],
+			[
+				"gulp-es",
+				"gulp-eslint	gulp-eslint"
+			],
+			[
+				"gulp-e",
+				"gulp-eslint	gulp-eslint"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"__",
+				"__dirname"
+			],
+			[
 				"conso",
 				"console.log"
 			],
@@ -279,30 +375,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "angular-phonecat-gulp/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 1651,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "angular-phonecat-gulp/gulpconfig.js",
-			"settings":
-			{
-				"buffer_size": 391,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "angular-phonecat-gulp/app/index.html",
-			"settings":
-			{
-				"buffer_size": 1652,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -311,10 +383,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "git",
+		"height": 158.0,
+		"last_filter": "giigno",
 		"selected_items":
 		[
+			[
+				"giigno",
+				"Gitignore: New gitignore"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: gu",
+				"Snippet: bs3-button-group"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
 			[
 				"git",
 				"Gitignore: New gitignore"
@@ -342,10 +430,6 @@
 			[
 				"lint",
 				"SublimeLinter: Lint This View"
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
 			],
 			[
 				"sni",
@@ -376,7 +460,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 530.0
+		"width": 538.0
 	},
 	"console":
 	{
@@ -402,42 +486,83 @@
 	[
 		"/Users/nirnoy/git/fedtoolkit",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app"
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/build",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/dist",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/partials/cache"
 	],
 	"file_history":
 	[
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styles.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulp-complete.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpconfig.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styleswatch.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.inject.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile-lazy.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.css",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/app.scss",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/app.css",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.css",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/dist/app.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/app.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/index.html",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfile.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/controllers.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/dist/controllers.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/package.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/.gitignore",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/bower.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfile.v2.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/.eslintrc",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfile.complete.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/package.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/build/js/lib.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/build/js/bundle.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfile.old.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/node_modules/gulp-useref/package.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styles.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-asp/src/angular-phonecat-asp/package.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-asp/src/angular-phonecat-asp/bower.json",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-asp/src/angular-phonecat-asp/.bowerrc",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/animations.scss",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/build/index.html",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.angular.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.bundle.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/partials/cache/ngTemplates.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile-lazy.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.styleswatch.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.ES6.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.js",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/snippets/gulp-clean.sublime-snippet",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/snippets/gulp-log",
+		"/Users/nirnoy/git/fedtoolkit/webpack/webpack.config.js",
+		"/Users/nirnoy/git/fedtoolkit/webpack/src/app.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/es6/animations.js",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.minify.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.images.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.inject.js",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/build/index.html",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/build/css/bundle.css",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/partials/ngTemplates.js",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/dist/index.html",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/Terminality/README.md",
+		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/dist/js/bundle.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/bower_components/bootstrap/bower.json",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/LICENSE",
 		"/Users/nirnoy/git/fedtoolkit/.gitignore",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/README.md",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/README.md",
 		"/Users/nirnoy/git/fedtoolkit/webpack/index.html",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/package.json",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/sass/animations.scss",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfile.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/app.css",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/package.json",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.lint.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/services.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/controllers.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/app.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/webpack.config.js",
-		"/Users/nirnoy/git/fedtoolkit/webpack/webpack.config.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/filters.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/webpack.config.complete.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/build/wp.bundle.js",
-		"/Users/nirnoy/git/fedtoolkit/webpack/src/app.js",
 		"/Users/nirnoy/git/fedtoolkit/webpack/build/bundle.js",
 		"/Users/nirnoy/git/fedtoolkit/webpack/src/es6/app.es6",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/package.json",
@@ -445,11 +570,9 @@
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/animations.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-webpack/app/js/build/vendor.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/gulpfiles/gulpfile.hello.js",
-		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Cache/HTML/HTML.tmLanguage.cache",
 		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/PackageResourceViewer/README.md",
 		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
-		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/nirnoy/git/fedtoolkit/webpack/css/style1.scss",
 		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step4-css/webpack.config.autoprefixer.js",
 		"/Users/nirnoy/git/fedtoolkit/webpack/build/styles.css",
@@ -473,11 +596,9 @@
 		"/Users/nirnoy/git/fedtoolkit/webpack/webpackConfigs/step1_helloWorld/webpack.config.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/animations.sass",
 		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/.eslintrc",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/css/app.sass",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/animations.js",
 		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/services.js",
-		"/Users/nirnoy/git/fedtoolkit/angular-phonecat-gulp/app/js/controllers.js",
 		"/Users/nirnoy/git/fedtoolkit/gulpbase",
 		"/Users/nirnoy/git/webpack/css/style1.css",
 		"/Users/nirnoy/git/webpack/build/app.bundle.js",
@@ -499,41 +620,7 @@
 		"/Users/nirnoy/git/webpack/package.json",
 		"/Users/nirnoy/git/angular-phonecat-cms/app/js/app.js",
 		"/Users/nirnoy/git/angular-phonecat-cms/app/index.html",
-		"/Users/nirnoy/git/angular-phonecat-cms/app/js/animations.js",
-		"/Users/nirnoy/git/angular-phonecat-cms/webpack.config.js",
-		"/Users/nirnoy/git/angular-phonecat-cms/app/js/build/app.js",
-		"/Users/nirnoy/git/angular-phonecat-cms/app/js/services.js",
-		"/Users/nirnoy/git/angular-phonecat-cms/package.json",
-		"/Users/nirnoy/git/angular-phonecat-cms/npm-debug.log",
-		"/Users/nirnoy/git/angular-phonecat-cms/node_modules/http-server/LICENSE",
-		"/Users/nirnoy/git/angular-phonecat-cms/app/js/controllers.js",
-		"/Users/nirnoy/git/angular-phonecat-cms/app/js/filters.js",
-		"/Users/nirnoy/git/angular-phonecat/webpack.config.js",
-		"/Users/nirnoy/git/angular-phonecat/app/index.html",
-		"/Users/nirnoy/git/angular-phonecat/app/js/app.js",
-		"/Users/nirnoy/git/angular-phonecat/app/js/build/vendor.js",
-		"/Users/nirnoy/git/angular-phonecat/app/js/animations.js",
-		"/Users/nirnoy/git/angular-phonecat/app/js/build/shared.js",
-		"/Users/nirnoy/git/angular-phonecat/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/docstyle.css",
-		"/Users/nirnoy/git/angular-phonecat/app/js/build/bundle.js",
-		"/Users/nirnoy/dev/ng-hackathon-starter/config.js",
-		"/Users/nirnoy/dev/ng-hackathon-starter/node_modules/jquery/dist/jquery.min.js",
-		"/Users/nirnoy/dev/ng-hackathon-starter/jspm_packages/github/twitter/typeahead.js@0.11.1.js",
-		"/Users/nirnoy/dev/ng-hackathon-starter/lib/typeahead.bundle.js",
-		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/src/client/app/app.module.js",
-		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/gulpfile.js",
-		"/Users/nirnoy/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/.jscsrc",
-		"/Users/nirnoy/dev/pluralsightGulp/pluralsight-gulp/,",
-		"/Users/nirnoy/git/HttpOwl/proxyResponse.json",
-		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/proxyAdapter.js",
-		"/Users/nirnoy/git/HttpOwl/wget.txt",
-		"/Users/nirnoy/git/HttpOwl/app/index.html",
-		"/Users/nirnoy/git/HttpOwl/app/scripts/dist/index.js",
-		"/Users/nirnoy/git/HttpOwl/app/scripts/components.jsx",
-		"/Users/nirnoy/git/HttpOwl/app/scripts/proxyAdapter.js",
-		"/Users/nirnoy/git/HttpOwl/app/main.js",
-		"/Users/nirnoy/git/HttpOwl/app/mainNode.js"
+		"/Users/nirnoy/git/angular-phonecat-cms/app/js/animations.js"
 	],
 	"find":
 	{
@@ -554,6 +641,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"usermodelmongo",
 			"node_modules",
 			"new webpack.optimize.CommonsChunkPlugin({\n            name:\"vendorAngular\",\n            filename:\"angular.bundle.js\"}),",
 			";\n",
@@ -631,99 +719,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "angular-phonecat-gulp/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1651,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1407,
-								1407
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 732.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "angular-phonecat-gulp/gulpconfig.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								183,
-								368
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "angular-phonecat-gulp/app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1652,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								124,
-								124
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 14.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -784,6 +781,102 @@
 		"selected_items":
 		[
 			[
+				"contorll",
+				"angular-phonecat-gulp/app/js/controllers.js"
+			],
+			[
+				"app.js",
+				"angular-phonecat-gulp/app/js/app.js"
+			],
+			[
+				"app.scss",
+				"angular-phonecat-gulp/app/sass/app.scss"
+			],
+			[
+				"gulp",
+				"angular-phonecat-gulp/gulpconfig.js"
+			],
+			[
+				"gulpc",
+				"angular-phonecat-gulp/gulpconfig.js"
+			],
+			[
+				"bower",
+				"angular-phonecat-gulp/bower.json"
+			],
+			[
+				"inde",
+				"angular-phonecat-gulp/app/index.html"
+			],
+			[
+				"app",
+				"angular-phonecat-gulp/app/js/app.js"
+			],
+			[
+				"bower.",
+				"angular-phonecat-gulp/bower.json"
+			],
+			[
+				"app.scs",
+				"angular-phonecat-gulp/app/sass/app.scss"
+			],
+			[
+				"app.sc",
+				"angular-phonecat-gulp/app/sass/app.scss"
+			],
+			[
+				"gulpconfig",
+				"angular-phonecat-gulp/gulpconfig.js"
+			],
+			[
+				"index",
+				"angular-phonecat-gulp/app/index.html"
+			],
+			[
+				".esli",
+				"angular-phonecat-gulp/.eslintrc"
+			],
+			[
+				"gulpfile.old",
+				"angular-phonecat-gulp/gulpfile.old.js"
+			],
+			[
+				"pack",
+				"angular-phonecat-gulp/package.json"
+			],
+			[
+				"",
+				"angular-phonecat-gulp/gulpfile.old.js"
+			],
+			[
+				"gulpcn",
+				"angular-phonecat-gulp/gulpconfig.js"
+			],
+			[
+				"gulpcong",
+				"angular-phonecat-gulp/gulpconfig.js"
+			],
+			[
+				".e",
+				"angular-phonecat-gulp/.eslintrc"
+			],
+			[
+				".esl",
+				"angular-phonecat-gulp/.eslintrc"
+			],
+			[
+				"gulpfile",
+				"angular-phonecat-gulp/gulpfiles/gulpfile.bundle.js"
+			],
+			[
+				"gulpfile.",
+				"angular-phonecat-gulp/gulpfile.js"
+			],
+			[
+				"gulp.an",
+				"angular-phonecat-gulp/gulpfiles/gulpfile.angular.js"
+			],
+			[
 				"control",
 				"angular-phonecat-webpack/app/js/controllers.js"
 			]
@@ -798,7 +891,7 @@
 		[
 			[
 				"",
-				"~/Documents/ExpressJS/NodeExpress.sublime-project"
+				"~/Library/Application Support/Sublime Text 3/Packages/User/snippets/snippets.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -820,7 +913,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 194.0,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

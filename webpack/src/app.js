@@ -2,7 +2,6 @@
     'use strict';
     //var angular=require('angular');
     var logger= require('./logger');
-    var appModule=_angular.module('app',[]);
     logger.log("app started");
     logger.log('app in progress');
 

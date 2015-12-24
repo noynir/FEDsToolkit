@@ -1,5 +1,6 @@
 'use strict';
 
+
 var phonecatAnimations = angular.module('phonecatAnimations', ['ngAnimate']);
 
 phonecatAnimations.animation('.phone', function() {

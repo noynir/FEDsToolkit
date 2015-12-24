@@ -2,6 +2,12 @@
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				"angular-phonecat-asp",
+				"angular-phonecat-webpack",
+				"webpack"
+			],
 			"path": "."
 		}
 	]
